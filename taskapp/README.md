@@ -84,6 +84,9 @@ Go to bottom of your VS Code toolbar and select "JavaScript React" for the langu
 
 ES7 + React/Redux/React-Native Snippets - Makes creating components and classes much faster with boiler plate components
 
+react-icons - Allows you to use different libraries for icons, i.e. from Fab Awesome
+
+### JSX TIDBITS
 ({title}) - This is called destructuring, so that you do not need to do the following:
 
 function (props){
