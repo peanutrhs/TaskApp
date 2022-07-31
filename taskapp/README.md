@@ -74,3 +74,35 @@ This task tracker was created by following along a youtube video by
 Traversy Media 
 https://www.youtube.com/watch?v=w7ejDZ8SWv8&t=14s
 
+### EXTERNAL TOOL
+React Development Tools -- Used to allow you to see all the components and properties and state of your react application.
+https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
+
+### HELPFUL TOOLS
+Emmet:  you can use short expressions to generate HTML markup, CSS workflow
+Go to bottom of your VS Code toolbar and select "JavaScript React" for the language mode selection
+
+ES7 + React/Redux/React-Native Snippets - Makes creating components and classes much faster with boiler plate components
+
+({title}) - This is called destructuring, so that you do not need to do the following:
+
+function (props){
+    <h1>{props.title}<h1>
+}
+After:
+function ({title}){
+    <h1>{title}<h1>
+}
+
+PropTypes - This is just like using TypeScript, it makes sure that the variables are of the type that are defined in component.
+
+Setting style in a inline <h1 style = {{color:'red',backgroundColor: 'black'}}>Hello<h1> requires double curly braces
+
+
+or:
+const headingStyle = {
+    color: 'red', 
+    backgroundColor: 'black'
+}
+
+<h1 style ={headingStyle}>Hello<h1>
