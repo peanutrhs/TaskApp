@@ -109,3 +109,5 @@ const headingStyle = {
 }
 
 <h1 style ={headingStyle}>Hello<h1>
+
+State gets passed down, actions get passed up.
