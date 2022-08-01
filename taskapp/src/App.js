@@ -8,7 +8,6 @@ import  {BrowserRouter as Router, Route} from 'react-router-dom'
 import { useState, useEffect } from 'react'
 
 
-
 function App() {
   const [showAddTask,setShowAddTask] = useState(false)
   const [tasks, setTasks] = useState([])
