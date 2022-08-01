@@ -86,6 +86,13 @@ ES7 + React/Redux/React-Native Snippets - Makes creating components and classes 
 
 react-icons - Allows you to use different libraries for icons, i.e. from Fab Awesome
 
+serve - Allows you to test production build
+npm i -g serve
+commandline: serve -s build -p 8000
+
+json-server - for a mock REST API backend
+install: npm i json-server
+
 ### JSX TIDBITS
 ({title}) - This is called destructuring, so that you do not need to do the following:
 
