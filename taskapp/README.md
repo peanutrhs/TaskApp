@@ -95,15 +95,15 @@ install: npm i json-server
 
 ### JSX TIDBITS
 ({title}) - This is called destructuring, so that you do not need to do the following:
-
-//function (props){
-//    <h1>{props.title}<h1>
-//}
+<h2>
+function (props){
+    "<h1>{props.title}<h1>"
+}
 After:
 function ({title}){
-    <h1>{title}<h1>
+   "<h1>{title}<h1>"
 }
-
+</h2>
 PropTypes - This is just like using TypeScript, it makes sure that the variables are of the type that are defined in component.
 
 Setting style in a inline <h1 style = {{color:'red',backgroundColor: 'black'}}>Hello<h1> requires double curly braces
