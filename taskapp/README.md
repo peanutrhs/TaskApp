@@ -96,9 +96,9 @@ install: npm i json-server
 ### JSX TIDBITS
 ({title}) - This is called destructuring, so that you do not need to do the following:
 
-function (props){
-    <h1>{props.title}<h1>
-}
+//function (props){
+//    <h1>{props.title}<h1>
+//}
 After:
 function ({title}){
     <h1>{title}<h1>
